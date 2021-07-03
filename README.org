@@ -1,0 +1,7 @@
+* Example of Clojure, Java and deps.edn struggle
+
+Have you tried to have Clojure and java inter-operation? Did you find that the
+examples are not suitable for the noobs? You are not alone!
+
+This project is supposed to be an example of simple Netbeans project with some
+Clojure inter-operation that is supposed to help in search of better solution.
