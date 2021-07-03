@@ -25,6 +25,10 @@ public class JavaApplication3 {
         String rs = helloer.everyoneReturned();
         System.out.println(rs);
         
+        jac.responder.foo("baar");
+        
+        jac.responder.wow(helloer);
+        
         System.out.println("the beginning");
     }
 
