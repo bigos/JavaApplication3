@@ -8,7 +8,7 @@
 (defn -wow
   "experiment with passing more elaborate objects from java"
   []
-  (prn "this may use helloer method to print something")
+  (prn "this may use java helloer method to print something")
   (let [hl (new Helloer)]
     (. Helloer (everyone))))
 
