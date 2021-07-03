@@ -1,0 +1,11 @@
+* Notes
+
+  generate project and create jar
+  #+begin_example
+clj -X:new :template lib :name jac/responder
+clj -X:uberjar :jar ./responder.jar :main-class jac.responder
+  #+end_example
+
+
+** still to find
+   folder structure
