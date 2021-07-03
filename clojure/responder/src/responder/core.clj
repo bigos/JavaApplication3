@@ -1,7 +1,10 @@
 (ns responder.core
   (:gen-class
-   :methods [#^{:static true} [wow [Helloer] void]  ;we have a problem
-             #^{:static true} [foo [String] void]]))
+   :name responder.core
+   :methods [^{:static true} [wow [String] void]
+             ^{:static true} [foo [String] void]]
+   )
+  )
 
 (defn -wow
   "experiment with passing more elaborate objects from java"
