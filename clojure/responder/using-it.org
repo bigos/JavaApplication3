@@ -1,9 +1,0 @@
-* using it
-#+begin_example
- cd ./responder/
- lein clean
- lein javac
- lein uberjar
- tree
- cp ./target/responder-0.1.0-SNAPSHOT.jar ../../lib/responder.jar
-#+end_example
