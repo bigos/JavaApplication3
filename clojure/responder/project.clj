@@ -5,4 +5,5 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.1"]]
   :repl-options {:init-ns responder.core}
-  :source-paths ["../../src/javaapplication3"])
+  :java-source-paths ["../../src/javaapplication3"])
+;; https://cljdoc.org/d/leiningen/leiningen/2.9.5/doc/polyglot-clojure-java-projects-with-leiningen#polyglot-clojure-java-projects-with-leiningen
