@@ -24,10 +24,11 @@ public class JavaApplication3 {
         String rs = helloer.everyoneReturned();
         System.out.println(rs);
         
-        //responder.core.foo("123");        
-        //responder.core.wow("helloer");
+        jac.responder.foo("123");
+         
+        jac.responder.wow();
         
-        System.out.println("the beginning");
+        System.out.println("the end");
     }
 
 }

@@ -9,3 +9,9 @@ clj -X:uberjar :jar ./responder.jar :main-class jac.responder
 
 ** still to find
    folder structure
+
+** ouch
+   In JavaApplication3/build/classes we have to remove
+   JavaApplication3/build/classes/javaapplication3/JavaApplication3.class
+   prior to creation of our jar file. Otherwise Netbeans will be fooled and you
+   will not see the code changes on the java side.

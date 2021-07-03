@@ -11,11 +11,11 @@ package javaapplication3;
  */
 public class Helloer {
 
-    static void everyone() {
+    public static void everyone() {
         System.out.println("hello everyone");
     }
 
-    static String everyoneReturned() {
+    public static String everyoneReturned() {
         return "hello everyone returned";
     }
 }
