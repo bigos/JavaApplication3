@@ -5,6 +5,7 @@
  */
 package javaapplication3;
 
+import javaapplication3.Helloer;
 /**
  *
  * @author jacek
@@ -16,6 +17,13 @@ public class JavaApplication3 {
      */
     public static void main(String[] args) {
         System.out.println("the beginning");
+        
+        Helloer helloer = new Helloer();
+        
+        helloer.everyone();
+        
+        String rs = helloer.everyoneReturned();
+        System.out.println(rs);
         
         System.out.println("the beginning");
     }
