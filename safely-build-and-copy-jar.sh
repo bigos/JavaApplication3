@@ -11,6 +11,10 @@ rm ./build/classes/javaapplication3/JavaApplication3.class
 # go to clojure folde
 cd ./clojure/responder/
 
+echo "compiling..."
 # compile and copy the jar file
 clj -X:uberjar :jar ./responder.jar :main-class jac.responder
+
+echo "copying the jar file..."
 cp ./responder.jar ../../lib/responder.jar
+echo "finished"
