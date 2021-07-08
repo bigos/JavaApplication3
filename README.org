@@ -12,3 +12,14 @@
 
   Here I will first remove the folder with clojure deps.edn project and the
   responder.jar file.
+
+  Next I will download 3 files and place them in the lib folder of the project.
+  + clojure-1.10.2.jar
+  + core.specs.alpha-0.2.56.jar
+  + spec.alpha-0.2.194.jar:
+
+  and use Netbeans dialogue for adding folders with code and jar files to the
+  classpath.
+
+  Maven page https://search.maven.org/artifact/org.clojure/clojure/1.10.2/jar
+  list other dependencies that we will not consider at this point.
