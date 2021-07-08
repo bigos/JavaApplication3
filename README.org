@@ -23,3 +23,6 @@
 
   Maven page https://search.maven.org/artifact/org.clojure/clojure/1.10.2/jar
   list other dependencies that we will not consider at this point.
+
+  I had problem making it run correctly because java and Clojure had different
+  classpaths. Fiddling with Netbeans project properties has fixed it.
