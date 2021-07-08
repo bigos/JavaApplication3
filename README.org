@@ -9,3 +9,6 @@
   With great help from https://github.com/seancorfield   I have managed to
   modify another app to use Clojure correctly. That can be used a example of an
   important step leading to refactoring of legacy Ant based java application.
+
+  Here I will first remove the folder with clojure deps.edn project and the
+  responder.jar file.
