@@ -1,4 +1,2 @@
 ;;; we seem to benefit from paths...
-{:paths ["src/clojure"]
- :deps {}
- :aliases {:runner {:extra-paths ["build"]}}}
+{:paths ["src/clojure" "build/classes"]}
