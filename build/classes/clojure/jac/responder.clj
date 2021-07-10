@@ -1,6 +1,6 @@
 (ns jac.responder
   ;; both java and Clojure need to have the same classpath
-  (:import (javaapplication3 Helloer))
+  ;(:import (javaapplication3 Helloer))
   (:gen-class))
 
 (defn foo [x]
@@ -12,4 +12,5 @@
 
 ;;; calling a method of java Helloer class
 (defn wow []
-  (. Helloer (everyone) ))
+  (javaapplication3.Helloer/everyone)
+  )

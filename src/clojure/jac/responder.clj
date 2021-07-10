@@ -12,5 +12,4 @@
 
 ;;; calling a method of java Helloer class
 (defn wow []
-  ;(. Helloer (everyone) )
-  )
+  (javaapplication3.Helloer/everyone))
