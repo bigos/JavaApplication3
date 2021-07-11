@@ -1,2 +1,2 @@
-;;; we seem to benefit from paths...
+;;; build/classes allow us to use compiled java classes
 {:paths ["src/clojure" "build/classes"]}
