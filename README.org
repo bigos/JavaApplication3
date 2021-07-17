@@ -35,3 +35,7 @@ https://github.com/stuarthalloway/clojure-from-java
  In this version Clojure code is required and invoked from the java class. There
  is no need to add Clojure sources as in the other Ant project.
  see the heading Java main class
+
+ This shows that we can manipulate classpath on Clojure side, so we can use
+ similar if the lack of classpath is an issue.
+ https://maven.apache.org/plugins-archives/maven-surefire-plugin-2.12.4/examples/configuring-classpath.html
