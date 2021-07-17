@@ -26,3 +26,7 @@
 
   I had problem making it run correctly because java and Clojure had different
   classpaths. Fiddling with Netbeans project properties has fixed it.
+
+
+
+https://github.com/stuarthalloway/clojure-from-java
