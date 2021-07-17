@@ -30,3 +30,5 @@
 
 
 https://github.com/stuarthalloway/clojure-from-java
+
+https://joelholder.com/2015/10/23/how-to-cleanly-integrate-java-and-clojure-in-the-same-package/
