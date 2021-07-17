@@ -27,8 +27,11 @@
   I had problem making it run correctly because java and Clojure had different
   classpaths. Fiddling with Netbeans project properties has fixed it.
 
-
-
 https://github.com/stuarthalloway/clojure-from-java
 
-https://joelholder.com/2015/10/23/how-to-cleanly-integrate-java-and-clojure-in-the-same-package/
+** interesting example
+ https://joelholder.com/2015/10/23/how-to-cleanly-integrate-java-and-clojure-in-the-same-package/
+
+ In this version Clojure code is required and invoked from the java class. There
+ is no need to add Clojure sources as in the other Ant project.
+ see the heading Java main class
