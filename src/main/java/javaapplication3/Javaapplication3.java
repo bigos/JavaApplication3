@@ -12,7 +12,7 @@ import clojure.lang.IFn;
  *
  * @author jacek
  */
-public class JavaApplication3 {
+public class Javaapplication3 {
 
     /**
      * @param args the command line arguments
@@ -49,5 +49,4 @@ public class JavaApplication3 {
         //jac.responder.wow();
         System.out.println("the end");
     }
-
 }

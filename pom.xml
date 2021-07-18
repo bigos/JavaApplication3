@@ -20,7 +20,7 @@
     <build>
         <resources>
             <resource>
-                <directory>src/clojure</directory>
+                <directory>src/main/clojure</directory>
             </resource>
         </resources>
     </build>
